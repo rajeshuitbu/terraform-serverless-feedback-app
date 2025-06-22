@@ -7,9 +7,7 @@ Objective:
 Deploy a fully serverless web application on AWS using Terraform, integrating multiple AWS services like API Gateway, Lambda, DynamoDB, S3, and CloudFront.
 
 Architecture Overview:
-rust
-Copy
-Edit
+
 User -> CloudFront -> S3 (Static Frontend)
      -> API Gateway -> Lambda -> DynamoDB
 AWS Services Used:
